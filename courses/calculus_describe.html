@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Course Page - Calculus</title>
+
+   <!-- Font Awesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS File Link -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      body {
+         display: flex;
+         margin: 0;
+         font-family: Arial, sans-serif;
+         flex-direction: column;
+      }
+
+      .header {
+         width: 100%;
+         background-color: #FF6B6B;
+         color: white;
+         padding: 9px;
+         text-align: center;
+      }
+
+      .header .logo {
+         font-size: 30px;
+         font-weight: bold;
+         color: #34495E;
+         text-decoration: none;
+         display: block;
+      }
+
+      .description {
+         margin-top: 10px;
+         color: #FF6B6B;
+         font-size: 16px;
+         padding: 0 20px;
+         text-align: center;
+      }
+
+      .container {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         width: 100%;
+         padding: 10px;
+      }
+
+      .side-bar {
+         width: 250px;
+         background-color: #ffff;
+         padding: 15px;
+         border-right: 1px solid #ddd;
+         height: 100vh;
+         position: fixed;
+         top: 60px;
+         left: 0;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+
+    
+
+      .side-bar .button {
+         padding: 10px 20px;
+         font-size: 16px;
+         color: white;
+         background-color: #FF6B6B;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+      }
+
+      .side-bar .button:hover {
+         background-color: #34495E;
+      }
+
+      .main-content {
+         flex: 1;
+         margin-left: 270px;
+         padding: 20px;
+      }
+
+      .main-content h2 {
+         font-size: 28px;
+         color: #34495e;
+         margin-bottom: 15px;
+      }
+
+      .main-content p {
+         line-height: 1.6;
+         color: #555;
+         margin-bottom: 15px;
+      }
+
+      .notes {
+         margin-top: 20px;
+         font-size: 16px;
+         color: #FF6B6B;
+      }
+
+      .topic-link {
+         text-decoration: none;
+         color: #FF6B6B;
+         font-weight: bold;
+      }
+
+      .topic-link:hover {
+         text-decoration: underline;
+      }
+   </style>
+</head>
+<body>
+
+<header class="header">
+   <a href="../courses.html" class="logo">Calculus</a>
+</header>   
+
+<div class="container">
+   <div class="side-bar">
+      
+      <a href="cal_notePage.php" class="button">Notes</a>
+      <a href="calculus_question.php" class="button">Questions</a>
+   </div>
+
+   <div class="main-content">
+      <h2>What is Calculus All About?</h2>
+      <p>
+         Calculus is a branch of mathematics that focuses on understanding and describing change. It comprises two main areas:
+      </p>
+      <p>
+         <strong>Differential Calculus:</strong> Focuses on rates of change and slopes of curves. The derivative is a key concept here, which measures how a quantity changes with respect to another (e.g., velocity as the rate of change of position).
+      </p>
+      <p>
+         <strong>Integral Calculus:</strong> Deals with the accumulation of quantities, such as areas under curves and total accumulated change over intervals. The integral represents the accumulation and is often visualized as the area under a curve.
+      </p>
+      
+      <h2>Applications of Calculus</h2>
+      <p>
+         Calculus has a wide range of applications across many fields:
+      </p>
+      <ul>
+         <li>
+            <strong>Physics:</strong> Used to calculate motion, forces, energy, and waves. For example, Newton’s laws of motion involve derivatives to describe acceleration, while integrals calculate quantities like work and energy.
+         </li>
+         <li>
+            <strong>Engineering:</strong> Essential in designing structures, electrical circuits, and mechanical systems, as calculus helps in analyzing stresses, fluid flow, and thermal dynamics.
+         </li>
+         <li>
+            <strong>Biology and Medicine:</strong> Calculus models growth rates of populations, the spread of diseases, and changes in medication concentrations over time, aiding in optimizing treatments and understanding biological processes.
+         </li>
+      </ul>
+
+      <p>
+         Calculus is crucial because it provides the tools to model, predict, and optimize real-world systems. It helps us make sense of complex, dynamic changes and understand relationships between variables in a structured way. By using calculus, scientists and engineers can design solutions, economists can predict market trends, and doctors can model disease spread—all of which contribute to technological, economic, and medical advancements.
+      </p>
+   </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Course Page - Calculus</title>
+
+   <!-- Font Awesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS File Link -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      body {
+         display: flex;
+         margin: 0;
+         font-family: Arial, sans-serif;
+         flex-direction: column;
+      }
+
+      .header {
+         width: 100%;
+         background-color: #FF6B6B;
+         color: white;
+         padding: 9px;
+         text-align: center;
+      }
+
+      .header .logo {
+         font-size: 30px;
+         font-weight: bold;
+         color: #34495E;
+         text-decoration: none;
+         display: block;
+      }
+
+      .description {
+         margin-top: 10px;
+         color: #FF6B6B;
+         font-size: 16px;
+         padding: 0 20px;
+         text-align: center;
+      }
+
+      .container {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         width: 100%;
+         padding: 10px;
+      }
+
+      .side-bar {
+         width: 250px;
+         background-color: #ffff;
+         padding: 15px;
+         border-right: 1px solid #ddd;
+         height: 100vh;
+         position: fixed;
+         top: 60px;
+         left: 0;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+
+    
+
+      .side-bar .button {
+         padding: 10px 20px;
+         font-size: 16px;
+         color: white;
+         background-color: #FF6B6B;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+      }
+
+      .side-bar .button:hover {
+         background-color: #34495E;
+      }
+
+      .main-content {
+         flex: 1;
+         margin-left: 270px;
+         padding: 20px;
+      }
+
+      .main-content h2 {
+         font-size: 28px;
+         color: #34495e;
+         margin-bottom: 15px;
+      }
+
+      .main-content p {
+         line-height: 1.6;
+         color: #555;
+         margin-bottom: 15px;
+      }
+
+      .notes {
+         margin-top: 20px;
+         font-size: 16px;
+         color: #FF6B6B;
+      }
+
+      .topic-link {
+         text-decoration: none;
+         color: #FF6B6B;
+         font-weight: bold;
+      }
+
+      .topic-link:hover {
+         text-decoration: underline;
+      }
+   </style>
+</head>
+<body>
+
+<header class="header">
+   <a href="../courses.html" class="logo">Python Programming</a>
+</header>   
+
+<div class="container">
+   <div class="side-bar">
+      
+      <a href="py_notePage.php" class="button">Notes</a>
+      <a href="py_question.php" class="button">Questions</a>
+   </div>
+
+   <div class="main-content">
+    <h2>What is Python Programming All About?</h2>
+    <p>
+        Python is a high-level, interpreted programming language known for its readability, simplicity, and versatility. It is widely used in a variety of fields, including web development, data analysis, artificial intelligence, scientific computing, and automation. Python's simple syntax makes it an ideal language for beginners, while its powerful libraries and frameworks make it a preferred choice for experts in various domains.
+    </p>
+    <p>
+        <strong>Python Syntax:</strong> Python syntax is designed to be clean and readable. Indentation is used to define blocks of code, which helps in writing structured and easy-to-follow programs. Python emphasizes code readability and allows programmers to express concepts in fewer lines of code compared to many other programming languages.
+    </p>
+    <p>
+        <strong>Dynamic Typing:</strong> Python is dynamically typed, meaning that variables do not need to be explicitly declared with a type. The interpreter determines the type of a variable during runtime, making Python flexible and easy to work with.
+    </p>
+
+    <h2>Core Concepts in Python Programming</h2>
+    <p>
+        There are several important concepts that every Python programmer should understand:
+    </p>
+    <ul>
+        <li>
+            <strong>Variables and Data Types:</strong> In Python, variables are used to store data. The data can be of various types, such as integers, floats, strings, lists, tuples, dictionaries, and more.
+        </li>
+        <li>
+            <strong>Control Flow:</strong> Python provides several control flow structures, such as conditionals (`if`, `else`, `elif`) and loops (`for`, `while`), to manage the execution of code based on specific conditions or to repeat actions multiple times.
+        </li>
+        <li>
+            <strong>Functions:</strong> Functions are reusable blocks of code that perform specific tasks. Python allows you to define your own functions using the `def` keyword. Functions help in organizing code, reducing redundancy, and improving modularity.
+        </li>
+        <li>
+            <strong>Object-Oriented Programming (OOP):</strong> Python supports object-oriented programming, which allows you to define classes and objects. It enables code reusability, inheritance, and encapsulation, making it easier to model real-world scenarios.
+        </li>
+        <li>
+            <strong>Modules and Libraries:</strong> Python has a rich ecosystem of built-in libraries and third-party modules that extend its functionality. These libraries cover a wide range of domains, from web development (e.g., Django, Flask) to data analysis (e.g., NumPy, Pandas) and machine learning (e.g., TensorFlow, Scikit-learn).
+        </li>
+    </ul>
+
+    <h2>Applications of Python Programming</h2>
+    <p>
+        Python is used in many different industries and applications, making it one of the most versatile programming languages. Some of the key applications of Python include:
+    </p>
+    <ul>
+        <li>
+            <strong>Web Development:</strong> Python is widely used for creating dynamic and interactive websites and web applications. Frameworks such as Django and Flask simplify the process of developing and deploying web applications.
+        </li>
+        <li>
+            <strong>Data Science and Analytics:</strong> Python is a go-to language for data scientists due to its powerful libraries for data manipulation and analysis, such as Pandas, NumPy, and Matplotlib. Python also supports machine learning and statistical analysis through libraries like Scikit-learn and Statsmodels.
+        </li>
+        <li>
+            <strong>Artificial Intelligence (AI) and Machine Learning (ML):</strong> Python has become the primary language for AI and ML due to its simplicity and the availability of powerful libraries such as TensorFlow, Keras, and PyTorch. These libraries make it easier to build neural networks and other machine learning models.
+        </li>
+        <li>
+            <strong>Automation and Scripting:</strong> Python's simplicity makes it an ideal choice for automating repetitive tasks, such as file management, web scraping, and data processing. Python scripts can save time and improve efficiency.
+        </li>
+        <li>
+            <strong>Game Development:</strong> Python is also used in game development, primarily for creating simple games or game prototypes. Libraries like Pygame help developers create interactive games.
+        </li>
+        <li>
+            <strong>Scientific Computing:</strong> Python is widely used in scientific research for simulations, numerical analysis, and scientific computing. Libraries like SciPy and SymPy are used in various scientific domains to perform advanced calculations and simulations.
+        </li>
+    </ul>
+
+    <p>
+        Python programming is powerful because it combines simplicity with flexibility. It has become a leading language for professionals and hobbyists alike due to its ease of learning and vast potential. Whether you are building a website, analyzing data, or creating machine learning models, Python provides the tools and frameworks to turn ideas into reality quickly and efficiently.
+    </p>
+</div>
+
+</body>
+</html>

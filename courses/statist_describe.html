@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Course Page - Calculus</title>
+
+   <!-- Font Awesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS File Link -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      body {
+         display: flex;
+         margin: 0;
+         font-family: Arial, sans-serif;
+         flex-direction: column;
+      }
+
+      .header {
+         width: 100%;
+         background-color: #FF6B6B;
+         color: white;
+         padding: 9px;
+         text-align: center;
+      }
+
+      .header .logo {
+         font-size: 30px;
+         font-weight: bold;
+         color: #34495E;
+         text-decoration: none;
+         display: block;
+      }
+
+      .description {
+         margin-top: 10px;
+         color: #FF6B6B;
+         font-size: 16px;
+         padding: 0 20px;
+         text-align: center;
+      }
+
+      .container {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         width: 100%;
+         padding: 10px;
+      }
+
+      .side-bar {
+         width: 250px;
+         background-color: #ffff;
+         padding: 15px;
+         border-right: 1px solid #ddd;
+         height: 100vh;
+         position: fixed;
+         top: 60px;
+         left: 0;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+
+    
+
+      .side-bar .button {
+         padding: 10px 20px;
+         font-size: 16px;
+         color: white;
+         background-color: #FF6B6B;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+      }
+
+      .side-bar .button:hover {
+         background-color: #34495E;
+      }
+
+      .main-content {
+         flex: 1;
+         margin-left: 270px;
+         padding: 20px;
+      }
+
+      .main-content h2 {
+         font-size: 28px;
+         color: #34495e;
+         margin-bottom: 15px;
+      }
+
+      .main-content p {
+         line-height: 1.6;
+         color: #555;
+         margin-bottom: 15px;
+      }
+
+      .notes {
+         margin-top: 20px;
+         font-size: 16px;
+         color: #FF6B6B;
+      }
+
+      .topic-link {
+         text-decoration: none;
+         color: #FF6B6B;
+         font-weight: bold;
+      }
+
+      .topic-link:hover {
+         text-decoration: underline;
+      }
+   </style>
+</head>
+<body>
+
+<header class="header">
+   <a href="../courses.html" class="logo">Statistics</a>
+</header>   
+
+<div class="container">
+   <div class="side-bar">
+      
+      <a href="sta_notePage.php" class="button">Notes</a>
+      <a href="stat_question.php" class="button">Questions</a>
+   </div>
+
+   <div class="main-content">
+    <h2>What is Statistics All About?</h2>
+    <p>
+        Statistics is the branch of mathematics that deals with the collection, analysis, interpretation, presentation, and organization of data. It is used to make inferences about populations based on sample data, and to understand trends, patterns, and variability in the data.
+    </p>
+    <p>
+        <strong>Descriptive Statistics:</strong> Focuses on summarizing and describing data. This includes measures like mean, median, mode, variance, and standard deviation, which give insight into the central tendency and spread of data.
+    </p>
+    <p>
+        <strong>Inferential Statistics:</strong> Involves making predictions or inferences about a population based on a sample. It includes hypothesis testing, confidence intervals, and regression analysis, helping to determine relationships between variables and test theories.
+    </p>
+
+    <h2>Applications of Statistics</h2>
+    <p>
+        Statistics has a wide range of applications across many fields:
+    </p>
+    <ul>
+        <li>
+            <strong>Healthcare:</strong> Used to analyze clinical trials, assess the effectiveness of treatments, and make predictions about disease spread or patient outcomes.
+        </li>
+        <li>
+            <strong>Business and Economics:</strong> Helps in market research, quality control, and decision-making processes, such as understanding consumer behavior, forecasting trends, and optimizing operations.
+        </li>
+        <li>
+            <strong>Social Sciences:</strong> Essential in fields like psychology, sociology, and education, where statistical methods are used to analyze survey results, behavioral patterns, and study relationships between different factors.
+        </li>
+    </ul>
+
+    <p>
+        Statistics is crucial because it allows us to make data-driven decisions, test hypotheses, and analyze trends. In the modern world, where data is abundant, statistical methods help to extract meaningful insights and guide actions in various domains. Whether it's optimizing business strategies, improving healthcare outcomes, or conducting research, statistics plays a central role in advancing knowledge and innovation.
+    </p>
+</div>
+
+
+</body>
+</html>

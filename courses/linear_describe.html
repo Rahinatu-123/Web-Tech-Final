@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Course Page - Calculus</title>
+
+   <!-- Font Awesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS File Link -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      body {
+         display: flex;
+         margin: 0;
+         font-family: Arial, sans-serif;
+         flex-direction: column;
+      }
+
+      .header {
+         width: 100%;
+         background-color: #FF6B6B;
+         color: white;
+         padding: 9px;
+         text-align: center;
+      }
+
+      .header .logo {
+         font-size: 30px;
+         font-weight: bold;
+         color: #34495E;
+         text-decoration: none;
+         display: block;
+      }
+
+      .description {
+         margin-top: 10px;
+         color: #FF6B6B;
+         font-size: 16px;
+         padding: 0 20px;
+         text-align: center;
+      }
+
+      .container {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         width: 100%;
+         padding: 10px;
+      }
+
+      .side-bar {
+         width: 250px;
+         background-color: #ffff;
+         padding: 15px;
+         border-right: 1px solid #ddd;
+         height: 100vh;
+         position: fixed;
+         top: 60px;
+         left: 0;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+
+    
+
+      .side-bar .button {
+         padding: 10px 20px;
+         font-size: 16px;
+         color: white;
+         background-color: #FF6B6B;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+      }
+
+      .side-bar .button:hover {
+         background-color: #34495E;
+      }
+
+      .main-content {
+         flex: 1;
+         margin-left: 270px;
+         padding: 20px;
+      }
+
+      .main-content h2 {
+         font-size: 28px;
+         color: #34495e;
+         margin-bottom: 15px;
+      }
+
+      .main-content p {
+         line-height: 1.6;
+         color: #555;
+         margin-bottom: 15px;
+      }
+
+      .notes {
+         margin-top: 20px;
+         font-size: 16px;
+         color: #FF6B6B;
+      }
+
+      .topic-link {
+         text-decoration: none;
+         color: #FF6B6B;
+         font-weight: bold;
+      }
+
+      .topic-link:hover {
+         text-decoration: underline;
+      }
+   </style>
+</head>
+<body>
+
+<header class="header">
+   <a href="../courses.html" class="logo">Linear Algebra</a>
+</header>   
+
+<div class="container">
+   <div class="side-bar">
+      
+      <a href="lin_notePage.php" class="button">Notes</a>
+      <a href="linear_question.php" class="button">Questions</a>
+   </div>
+
+   <div class="main-content">
+    <h2>What is Linear Algebra All About?</h2>
+    <p>
+        Linear algebra is a branch of mathematics that deals with vector spaces, linear equations, matrices, and transformations. It is fundamental to many areas of mathematics and is widely used in fields such as computer science, physics, engineering, economics, and data science.
+    </p>
+    <p>
+        <strong>Vectors:</strong> Vectors are quantities that have both magnitude and direction. In linear algebra, vectors are used to represent points or directions in space. They are fundamental in understanding multidimensional spaces.
+    </p>
+    <p>
+        <strong>Matrices:</strong> Matrices are rectangular arrays of numbers that can represent linear transformations, systems of linear equations, and other data structures. They are used to solve linear equations, transform data, and represent relationships between variables.
+    </p>
+    <p>
+        <strong>Linear Transformations:</strong> These are functions that map vectors to other vectors, while preserving vector addition and scalar multiplication. Linear transformations are often represented by matrices, and they play a key role in various applications like computer graphics and machine learning.
+    </p>
+
+    <h2>Applications of Linear Algebra</h2>
+    <p>
+        Linear algebra is essential in many practical applications:
+    </p>
+    <ul>
+        <li>
+            <strong>Computer Science:</strong> Linear algebra is used in algorithms, computer graphics, machine learning, and data analysis. It forms the backbone of many algorithms, especially in areas like image processing and deep learning.
+        </li>
+        <li>
+            <strong>Physics:</strong> In physics, linear algebra helps in understanding systems of forces, quantum mechanics, and the study of wave phenomena. Vectors and matrices are used to describe physical systems and solve complex equations.
+        </li>
+        <li>
+            <strong>Engineering:</strong> Linear algebra is crucial in various engineering disciplines, including electrical, civil, and mechanical engineering. It is used to model systems, solve structural problems, and design efficient networks.
+        </li>
+        <li>
+            <strong>Economics and Finance:</strong> Linear algebra is used in optimization problems, game theory, and econometrics. It helps economists and financial analysts model economic systems and make predictions.
+        </li>
+    </ul>
+
+    <p>
+        Linear algebra provides the tools to model and solve real-world problems that involve multidimensional data. Its methods are powerful and versatile, enabling us to perform complex operations efficiently. From computer simulations to financial modeling, linear algebra helps us understand the structure of data and systems, making it a vital area of study in modern science and technology.
+    </p>
+</div>
+
+
+
+</body>
+</html>

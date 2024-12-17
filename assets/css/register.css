@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white; /* Set background to white */
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-left {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-right a {
+  color: #34495e;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.navbar-right a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  display: flex;
+  justify-content: flex-start; /* Align the content to the left */
+  align-items: flex-start; /* Align content at the top */
+  height: 80vh;
+  position: relative; /* Allow container to be positioned relative to the image */
+}
+
+/* Image Container */
+.image-container {
+  flex: 1;
+  background-color: white;
+}
+
+.image {
+  width: 50%; /* Decreased image width further */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover;
+  margin-top: 10px; /* Reduced space at the top of the image */
+}
+
+/* Form Wrapper */
+.form-wrapper {
+  width: 60%; /* Width of the registration form container */
+  max-width: 350px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f9fc;
+  position: absolute; /* To position it on top of the image */
+  align-self: center; /* Shift the container to the right */
+  right: 20rem; /* Moved the container slightly up */
+  top: 1rem;
+  padding: 20px;
+}
+
+/* Form Container */
+.form-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Brand Name */
+.brand-name {
+  font-size: 20px; /* Slightly smaller font size */
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+/* Form Title */
+.form-title {
+  font-size: 24px; /* Slightly smaller font size */
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+  width: 100%;
+}
+
+.input-group {
+  margin-bottom: 15px; /* Reduced margin for compact form */
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #34495e;
+  font-size: 14px; /* Reduced font size */
+}
+
+.input-group input {
+  padding: 8px; /* Reduced padding for compact look */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px; /* Reduced font size */
+}
+
+/* Button */
+.register-button {
+  width: 100%;
+  padding: 8px; /* Reduced padding */
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px; /* Reduced font size */
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #e63946;
+}
+
+/* Login Link */
+.login-link {
+  margin-top: 15px; /* Reduced margin */
+  font-size: 12px; /* Reduced font size */
+  color: #34495e;
+}
+
+.login-link a {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,104 @@
+POST Data: Array
+(
+    [course] => Python Programming
+    [topic] => Control flow
+    [content] => 
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => note.png
+            [full_path] => note.png
+            [type] => image/png
+            [tmp_name] => C:\Users\user\Downloads\New folder\tmp\php14D5.tmp
+            [error] => 0
+            [size] => 23903
+        )
+
+)
+
+---
+POST Data: Array
+(
+    [course] => Principles of Economics
+    [topic] => Demand and Supply
+    [content] => <p><strong>Demand</strong> refers to the quantity of a good or service that consumers are willing and able to purchase at various price levels during a specific period. The relationship between price and quantity demanded is typically inverse, meaning as price decreases, demand increases, and vice versa (Law of Demand).</p>
+
+<ul>
+	<li><strong>Factors affecting demand</strong>:
+
+	<ul>
+		<li>Price of the good.</li>
+		<li>Consumer income.</li>
+		<li>Preferences and tastes.</li>
+		<li>Prices of related goods (substitutes and complements).</li>
+		<li>Future expectations.</li>
+	</ul>
+	</li>
+</ul>
+
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => sd.jpeg
+            [full_path] => sd.jpeg
+            [type] => image/jpeg
+            [tmp_name] => C:\Users\user\Downloads\New folder\tmp\phpA1AE.tmp
+            [error] => 0
+            [size] => 18939
+        )
+
+)
+
+---
+POST Data: Array
+(
+    [course] => Python Programming
+    [topic] => Loops
+    [content] => <p>There are different types of loops; we have the for loop, while loop, and the do-while loop, too.&nbsp;</p>
+
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+---
+POST Data: Array
+(
+    [course] => Python Programming
+    [topic] => Loops
+    [content] => <p>There are different types of loops; we have the for loop, while loop, and the do-while loop, too.&nbsp;</p>
+
+)
+
+FILES Data: Array
+(
+    [image] => Array
+        (
+            [name] => 
+            [full_path] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+---

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Course Page - Calculus</title>
+
+   <!-- Font Awesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- Custom CSS File Link -->
+   <link rel="stylesheet" href="css/style.css">
+
+   <style>
+      body {
+         display: flex;
+         margin: 0;
+         font-family: Arial, sans-serif;
+         flex-direction: column;
+      }
+
+      .header {
+         width: 100%;
+         background-color: #FF6B6B;
+         color: white;
+         padding: 9px;
+         text-align: center;
+      }
+
+      .header .logo {
+         font-size: 30px;
+         font-weight: bold;
+         color: #34495E;
+         text-decoration: none;
+         display: block;
+      }
+
+      .description {
+         margin-top: 10px;
+         color: #FF6B6B;
+         font-size: 16px;
+         padding: 0 20px;
+         text-align: center;
+      }
+
+      .container {
+         display: flex;
+         flex-direction: row;
+         justify-content: flex-start;
+         width: 100%;
+         padding: 10px;
+      }
+
+      .side-bar {
+         width: 250px;
+         background-color: #ffff;
+         padding: 15px;
+         border-right: 1px solid #ddd;
+         height: 100vh;
+         position: fixed;
+         top: 60px;
+         left: 0;
+         display: flex;
+         flex-direction: column;
+         gap: 10px;
+      }
+
+    
+
+      .side-bar .button {
+         padding: 10px 20px;
+         font-size: 16px;
+         color: white;
+         background-color: #FF6B6B;
+         border: none;
+         border-radius: 5px;
+         cursor: pointer;
+         text-align: center;
+         text-decoration: none;
+      }
+
+      .side-bar .button:hover {
+         background-color: #34495E;
+      }
+
+      .main-content {
+         flex: 1;
+         margin-left: 270px;
+         padding: 20px;
+      }
+
+      .main-content h2 {
+         font-size: 28px;
+         color: #34495e;
+         margin-bottom: 15px;
+      }
+
+      .main-content p {
+         line-height: 1.6;
+         color: #555;
+         margin-bottom: 15px;
+      }
+
+      .notes {
+         margin-top: 20px;
+         font-size: 16px;
+         color: #FF6B6B;
+      }
+
+      .topic-link {
+         text-decoration: none;
+         color: #FF6B6B;
+         font-weight: bold;
+      }
+
+      .topic-link:hover {
+         text-decoration: underline;
+      }
+   </style>
+</head>
+<body>
+
+<header class="header">
+   <a href="../courses.html" class="logo">Database Management Systems</a>
+</header>   
+
+<div class="container">
+   <div class="side-bar">
+      
+      <a href="data_notePage.php" class="button">Notes</a>
+      <a href="data_question.php" class="button">Questions</a>
+   </div>
+
+   <div class="main-content">
+    <h2>What is a Database Management System (DBMS)?</h2>
+    <p>
+        A Database Management System (DBMS) is software that provides an interface to interact with databases. It is used to store, retrieve, and manage data in an organized and efficient manner. A DBMS handles the creation, maintenance, and management of databases, providing security, integrity, and consistency of the data.
+    </p>
+    <p>
+        <strong>Relational DBMS (RDBMS):</strong> A type of DBMS where data is organized in tables (relations) that can be linked based on common attributes. Examples include MySQL, PostgreSQL, and Oracle. RDBMSs use Structured Query Language (SQL) for data manipulation.
+    </p>
+    <p>
+        <strong>NoSQL Databases:</strong> These are non-relational databases that allow for flexible data models such as document-based, key-value, graph, and column-family stores. Examples include MongoDB, Cassandra, and Redis. NoSQL databases are used for handling large volumes of unstructured or semi-structured data.
+    </p>
+    <p>
+        <strong>Distributed Databases:</strong> A distributed DBMS manages a database that is stored across multiple locations or servers. It ensures data consistency and availability, even in the case of server failures. Examples include Google Spanner and Amazon Aurora.
+    </p>
+
+    <h2>Applications of Database Management Systems</h2>
+    <p>
+        DBMSs play a crucial role in various industries and applications:
+    </p>
+    <ul>
+        <li>
+            <strong>Business and Finance:</strong> DBMSs are used to store and manage customer data, transactions, and financial records. They help in generating reports, tracking financial performance, and ensuring data consistency.
+        </li>
+        <li>
+            <strong>Healthcare:</strong> In healthcare, DBMSs are used to manage patient records, medical histories, and billing information. They help in maintaining the integrity of patient data and ensuring compliance with regulations.
+        </li>
+        <li>
+            <strong>E-commerce:</strong> E-commerce platforms rely on DBMSs to manage inventory, customer orders, and transaction details. They help in providing a seamless shopping experience and maintaining up-to-date stock information.
+        </li>
+        <li>
+            <strong>Government and Public Services:</strong> DBMSs are used in managing public records, such as voting systems, census data, and social security information. They ensure efficient data retrieval and security.
+        </li>
+        <li>
+            <strong>Social Media and Online Platforms:</strong> Platforms like Facebook, Twitter, and LinkedIn utilize DBMSs to manage user data, interactions, and content. They store vast amounts of unstructured and structured data, ensuring quick access and scalability.
+        </li>
+    </ul>
+
+    <p>
+        Database Management Systems are fundamental in modern computing as they provide structured storage, ensure data integrity, and allow easy retrieval of information. They help organizations efficiently manage large amounts of data, perform complex queries, and maintain secure access to sensitive information. DBMSs are indispensable tools in a wide range of applications, from business operations to healthcare and beyond.
+    </p>
+</div>
+
+
+</body>
+</html>
